@@ -5,35 +5,36 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/manga-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
-}
+  font-weight: bolder;
 
-/* Mis trabajos */
 
-#Mis-trabajos .image-top {
-  height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+  /* Mis trabajos */
 
-/* Contacto */
+  #Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 
-#Contacto form label {
-  font-weight: 700;
-  color: #373a3c;
-}
+  /* Contacto */
 
-@media (max-width: 768px) {
   #Contacto form label {
-    font-weight: 400;
+    font-weight: 700;
+    color: #373a3c;
   }
 
-  .navbar-brand {
-    width: 100px;
-  }
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
 
-}
+    .navbar-brand {
+      width: 100px;
+    }
+
+  }
